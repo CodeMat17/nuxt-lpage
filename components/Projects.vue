@@ -31,7 +31,7 @@ export default {
           title: "E-Commerce",
           image: require("assets/images/ecommerce.webp"),
           description:
-            "For this project, I use Nuxt, GraphQl for the frontend, Strapi, MongoDB for the backend and Snipcart for order management and secured payment .",
+            "In this project, I used Nuxt, GraphQl for the frontend, Strapi, MongoDB for the backend and Snipcart for order management and secured payment .",
         },
         {
           title: "Payslip",
