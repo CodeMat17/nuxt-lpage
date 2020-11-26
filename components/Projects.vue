@@ -47,7 +47,7 @@ export default {
         },
         {
           title: "Nuxt-Strapi Auth App",
-          image: require("assets/images/strapi-auth.png"),
+          image: require("assets/images/strapi-auth.webp"),
           description:
             "Here I recreated the use of Strapi authentication and @nuxtjs/auth for user authentication with jwt in nuxt projects.",
         },
