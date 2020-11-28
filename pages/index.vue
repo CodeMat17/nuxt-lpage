@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="flex-1">
     <div v-if="$nuxt.isOnline" class="flex-1 overflow-y-auto">
       <div
         id="home"
