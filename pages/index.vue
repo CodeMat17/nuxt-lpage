@@ -1,6 +1,6 @@
 <template>
   <div class="flex-1">
-    <div v-if="$nuxt.isOnline" class="flex-1 overflow-y-auto">
+    <div class="flex-1 overflow-y-auto">
       <div
         id="home"
         class="bg-cover bg-left w-full h-screen"
@@ -95,25 +95,8 @@
           <futta />
         </div>
       </div>
-    </div>
-   
-      <div v-if="$nuxt.isOffline" class="w-full flex justify-center items-center mx-auto text-red-500 bg-gray-900 rounded-lg animate-pulse">
-        <svg
-        class="w-16"
-          xmlns="http://www.w3.org/2000/svg"
-          fill="none"
-          viewBox="0 0 24 24"
-          stroke="currentColor"
-        >
-          <path
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            stroke-width="2"
-            d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"
-          />
-        </svg>
-        <h3 class="text-center py-12 ml-4 text-xl sm:text-2xl font-semibold">You are offline!</h3>
-      </div>
+    </div>  
+     
   </div>
 </template>
 
