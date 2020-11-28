@@ -34,21 +34,21 @@
               <div class="flex justify-center items-center">
                 <a href="mailto:matgold17@gmail.com" aria-label="Email" rel="noreferrer">
                   <div
-                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 text-gray-900 bg-gray-400 animate-bounce"
+                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 hover:border-gray-900 text-gray-900 bg-gray-400 animate-bounce"
                   >
                     <img src="@/assets/svg/email.svg" alt="email-svg" class="w-8 h-8" />
                   </div>
                 </a>
                 <a href="https://twitter.com/matt_chuks" aria-label="Twitter" rel="noreferrer" target="_blank">
                   <div
-                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 text-gray-900 bg-gray-400 animate-bounce"
+                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 hover:border-gray-900 text-gray-900 bg-gray-400 animate-bounce"
                   >
                     <img src="@/assets/svg/twitter.svg" alt="twitter-svg" class="w-8 h-8" />
                   </div>
                 </a>
                 <a href="https://github.com/Mctony17" aria-label="Github" rel="noreferrer" target="_blank">
                   <div
-                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 text-gray-900 bg-gray-400 animate-bounce"
+                    class="w-12 h-12 mt-8 mr-6 flex justify-center items-center rounded-full border-4 hover:border-gray-900 text-gray-900 bg-gray-400 animate-bounce"
                   >
                     <img src="@/assets/svg/github.svg" alt="github-svg" class="w-8 h-8" />
                   </div>
@@ -58,7 +58,7 @@
                   target="_blank"
                 >
                   <div
-                    class="w-12 h-12 mt-8 flex justify-center items-center rounded-full border-4 text-gray-900 bg-gray-400 animate-bounce"
+                    class="w-12 h-12 mt-8 flex justify-center items-center rounded-full border-4 hover:border-gray-900 text-gray-900 bg-gray-400 animate-bounce"
                   >
                     <img
                       src="@/assets/svg/linkedin.svg" alt="linkedIn-svg"

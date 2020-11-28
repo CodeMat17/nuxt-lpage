@@ -15,7 +15,7 @@
           rel="noreferrer"
         >
           <div
-            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 border-white shadow-xl animate-bounce"
+            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 hover:border-gray-600 border-white shadow-xl animate-bounce"
           >
             <img
               src="@/assets/svg/email.svg"
@@ -35,7 +35,7 @@
           target="_blank"
         >
           <div
-            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 border-white shadow-xl animate-bounce"
+            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 hover:border-gray-600 border-white shadow-xl animate-bounce"
           >
             <img
               src="@/assets/svg/twitter.svg"
@@ -55,7 +55,7 @@
           target="_blank"
         >
           <div
-            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 border-white shadow-xl animate-bounce"
+            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 hover:border-gray-600 border-white shadow-xl animate-bounce"
           >
             <img
               src="@/assets/svg/github.svg"
@@ -75,7 +75,7 @@
           target="_blank"
         >
           <div
-            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 border-white shadow-xl animate-bounce"
+            class="w-24 h-24 mx-auto flex justify-center items-center rounded-full border-4 hover:border-gray-600 border-white shadow-xl animate-bounce"
           >
             <img
               src="@/assets/svg/linkedin.svg"
