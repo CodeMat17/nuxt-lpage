@@ -7,7 +7,7 @@
         class="flex items-center justify-between text-gray-200 px-4 py-3 sm:p-0"
       >
         <div class="">
-          <div class="h-16 w-12 text-center flex items-center justify-center text-2xl text-gray-400 font-bold bg-gray-900 rounded-full border-4 border-gray-400">
+          <div class="h-12 w-12 text-center flex items-center justify-center text-2xl text-gray-400 font-bold bg-gray-900 rounded-full border-4 border-gray-400">
             CM
           </div>
         </div>
