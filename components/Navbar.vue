@@ -10,7 +10,7 @@
           <div
             class="h-12 w-12 text-center flex items-center justify-center text-2xl text-gray-400 font-bold bg-gray-900 rounded-full border-4 border-gray-400"
           >
-            CM
+            CMC
           </div>
           <button type="button" class="ml-4" @click="rfresh">
             <svg class="w-8 h-8" viewBox="0 0 24 24">
