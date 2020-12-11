@@ -20,7 +20,7 @@ export default {
 
     loading: {
         color: 'green',
-        height: '8px'
+        height: '5px'
     },
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
