@@ -171,17 +171,17 @@ export default {
     };
   },
   methods: {
-    sw: async function () {
-      const workbox = await window.$workbox;
-      if (workbox) {
-        workbox.addEventListener("installed", (event) => {
-          if (event.isUpdate) {
-            // whatever you want to do to let the user know there's an update available
-            this.modalState = true;
-          }
-        });
-      }
-    },
+    // sw: async function () {
+    //   const workbox = await window.$workbox;
+    //   if (workbox) {
+    //     workbox.addEventListener("installed", (event) => {
+    //       if (event.isUpdate) {
+    //         // whatever you want to do to let the user know there's an update available
+    //         this.modalState = true;
+    //       }
+    //     });
+    //   }
+    // },
     refresh() {
       this.$nuxt.refresh();
       this.modalState = false;
@@ -191,8 +191,8 @@ export default {
     this.$nextTick(() => {
       this.$nuxt.$loading.start();
       setTimeout(() => this.$nuxt.$loading.finish(), 5000);
-    }),
-      this.sw();
+    })
+      // this.sw();
   },
 };
 </script>
