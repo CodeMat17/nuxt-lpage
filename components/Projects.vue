@@ -10,7 +10,7 @@
     >
       
     </div>
-    <div v-for="project in projects" :key="project" class="mt-12">
+    <div v-for="(project, i) in projects" :key="i" class="mt-12">
       <div class="max-w-md mx-auto sm:flex sm:max-w-2xl sm:items-center sm:justify-center sm:my-8 rounded-lg overflow-hidden my-4 bg-gray-200 shadow-xl">
         <img class="w-full sm:w-64 sm:h-64 object-cover sm:object-left" :src="project.image" alt="project-img" />
         <div class="px-2 py-4 sm:px-4">

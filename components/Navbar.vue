@@ -6,20 +6,12 @@
       <div
         class="flex items-center justify-between text-gray-200 px-4 py-3 sm:p-0"
       >
-        <div class="flex justify-center items-center">
+        <div class="">
           <div
             class="h-12 w-12 text-center flex items-center justify-center text-2xl text-gray-400 font-bold bg-gray-900 rounded-full border-4 border-gray-400"
           >
-            CMC
+            CM
           </div>
-          <button type="button" class="ml-4" @click="rfresh">
-            <svg class="w-8 h-8" viewBox="0 0 24 24">
-              <path
-                fill="currentColor"
-                d="M12,5V1L7,6L12,11V7A6,6 0 0,1 18,13A6,6 0 0,1 12,19A6,6 0 0,1 6,13H4A8,8 0 0,0 12,21A8,8 0 0,0 20,13A8,8 0 0,0 12,5Z"
-              />
-            </svg>
-          </button>
         </div>
         <div class="sm:hidden">
           <button
@@ -89,10 +81,5 @@ export default {
       showMenu: false,
     };
   },
-  methods: {
-    rfresh() {
-      this.$nuxt.refresh()
-    }
-  }
 };
 </script>
