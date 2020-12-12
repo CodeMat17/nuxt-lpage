@@ -42,6 +42,9 @@ export default {
     ],
 
     pwa: {
+        icon: {
+            iconSrc: './static/icon.png'
+        },
         meta: {
             title: 'CodeMat Landing Page',
             author: 'CodeMat',
@@ -58,6 +61,18 @@ export default {
             orientation: 'portrait',
             icons: ['./static/icon.png'],
             useWebmanifestExtension: false
+        },
+        workbox: {
+            offlineStrategy: 'StaleWhileRevalidate',
+            runtimeCaching: [{
+                handler: 'cacheFirst',
+                strategyOptions: {
+                    cacheExpiration: {
+                        maxEntries: 1,
+                        maxAgeSeconds: 60 * 60
+                    }
+                }
+            }]
         }
     },
 
