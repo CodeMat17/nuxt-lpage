@@ -69,7 +69,7 @@ export default {
                 strategyOptions: {
                     cacheExpiration: {
                         maxEntries: 1,
-                        maxAgeSeconds: 60 * 60
+                        maxAgeSeconds: 60
                     }
                 }
             }]
