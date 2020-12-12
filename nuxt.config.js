@@ -62,18 +62,6 @@ export default {
             icons: ['./static/icon.png'],
             useWebmanifestExtension: false
         },
-        workbox: {
-            offlineStrategy: 'StaleWhileRevalidate',
-            runtimeCaching: [{
-                handler: 'cacheFirst',
-                strategyOptions: {
-                    cacheExpiration: {
-                        maxEntries: 1,
-                        maxAgeSeconds: 60
-                    }
-                }
-            }]
-        }
     },
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)

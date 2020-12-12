@@ -24,7 +24,7 @@
             <h1
               class="font-bold mt-4 text-center sm:text-left text-3xl uppercase tracking-wider md:tracking-widest md:text-4xl"
             >
-              Matthew Chukwu
+              Matthew Chukwu..
             </h1>
             <h4
               class="text-xl font-bold text-center sm:text-left md:text-2xl md:tracking-widest"
