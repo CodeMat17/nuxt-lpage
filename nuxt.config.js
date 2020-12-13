@@ -62,23 +62,23 @@ export default {
             icons: ['./static/icon.png'],
             useWebmanifestExtension: false
         },
-        workbox: {
-            /* workbox options */
-            dev: false,
-            offlineStrategy: 'StaleWhileRevalidate',
-            runtimeCaching: [{
-                urlPattern: 'https://matthewchukwu.netlify.app',
-                handler: 'cacheFirst',
+        // workbox: {
+        //     /* workbox options */
+        //     dev: false,
+        //     offlineStrategy: 'StaleWhileRevalidate',
+        //     runtimeCaching: [{
+        //         urlPattern: 'https://matthewchukwu.netlify.app',
+        //         handler: 'cacheFirst',
 
-                strategyOptions: {
-                    cacheName: 'mattcache',
-                    cacheExpiration: {
-                        maxEntries: 10,
-                        maxAgeSeconds: 60
-                    }
-                }
-            }]
-        }
+        //         strategyOptions: {
+        //             cacheName: 'mattcache',
+        //             cacheExpiration: {
+        //                 maxEntries: 10,
+        //                 maxAgeSeconds: 60
+        //             }
+        //         }
+        //     }]
+        // }
     },
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
