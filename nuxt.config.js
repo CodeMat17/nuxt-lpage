@@ -73,7 +73,7 @@ export default {
                     use: 'Expiration',
                     config: {
                         maxEntries: 10,
-                        maxAgeSeconds: 300
+                        maxAgeSeconds: 3000
                     }
                 }]
             }]
