@@ -63,21 +63,7 @@ export default {
             icons: ['./static/icon.png'],
             useWebmanifestExtension: false
         },
-        workbox: {
-            runtimeCaching: [{
-                // urlPattern: 'https://matthewchukwu.netlify.app',
-                strategyOptions: {
-                    cacheName: 'my-cache',
-                },
-                strategyPlugins: [{
-                    use: 'Expiration',
-                    config: {
-                        maxEntries: 10,
-                        maxAgeSeconds: 3000
-                    }
-                }]
-            }]
-        }
+
     },
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
