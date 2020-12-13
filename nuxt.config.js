@@ -69,7 +69,7 @@ export default {
             runtimeCaching: [{
                 urlPattern: 'https://matthewchukwu.netlify.app',
                 handler: 'cacheFirst',
-                method: 'GET',
+
                 strategyOptions: {
                     cacheName: 'mattcache',
                     cacheExpiration: {
