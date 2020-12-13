@@ -20,7 +20,7 @@ export default {
 
     loading: {
         color: 'green',
-        height: '3px'
+        height: '5px'
     },
 
     // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -56,29 +56,28 @@ export default {
             description: 'CodeMat Landing Page',
             start_url: '/',
             display: 'standalone',
+            orientation: 'portrait-primary',
             theme_color: '#F1F3F1',
             background_color: '#000',
             orientation: 'portrait',
             icons: ['./static/icon.png'],
             useWebmanifestExtension: false
         },
-        // workbox: {
-        //     /* workbox options */
-        //     dev: false,
-        //     offlineStrategy: 'StaleWhileRevalidate',
-        //     runtimeCaching: [{
-        //         urlPattern: 'https://matthewchukwu.netlify.app',
-        //         handler: 'cacheFirst',
-
-        //         strategyOptions: {
-        //             cacheName: 'mattcache',
-        //             cacheExpiration: {
-        //                 maxEntries: 10,
-        //                 maxAgeSeconds: 60
-        //             }
-        //         }
-        //     }]
-        // }
+        workbox: {
+            runtimeCaching: [{
+                // urlPattern: 'https://matthewchukwu.netlify.app',
+                strategyOptions: {
+                    cacheName: 'my-cache',
+                },
+                strategyPlugins: [{
+                    use: 'Expiration',
+                    config: {
+                        maxEntries: 10,
+                        maxAgeSeconds: 300
+                    }
+                }]
+            }]
+        }
     },
 
     // Build Configuration (https://go.nuxtjs.dev/config-build)
