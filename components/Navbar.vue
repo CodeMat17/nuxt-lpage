@@ -1,18 +1,16 @@
 <template>
-  <div class="fixed w-full z-50">
+  <div class="block flex justify-center items-center space-x-5">
     <header
-      class="bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
+      class="w-full bg-gray-800 sm:flex sm:justify-between sm:items-center sm:px-4 sm:py-3"
     >
       <div
         class="flex items-center justify-between text-gray-200 px-4 py-3 sm:p-0"
       >
-        <div class="">
           <div
-            class="h-12 w-12 text-center flex items-center justify-center text-2xl text-gray-400 font-bold bg-gray-900 rounded-full border-4 border-gray-400"
+            class="text-gray-400 text-lg font-semibold"
           >
-            CM
+            Chukwu Matthew
           </div>
-        </div>
         <div class="sm:hidden">
           <button
             @click="showMenu = !showMenu"
@@ -46,23 +44,13 @@
       </div>
       <div
         :class="showMenu ? 'block' : 'hidden'"
-        class="pb-2 uppercase font-semibold tracking-wider text-gray-400 sm:flex"
+        class=" uppercase font-semibold tracking-wider text-gray-400 sm:flex"
         @click="showMenu = !showMenu"
       >
         <n-link
           to="#home"
           class="block px-4 py-3 hover:bg-gray-500 hover:text-gray-700 rounded sm:tracking-widest"
           >Home</n-link
-        >
-        <n-link
-          to="#about"
-          class="block px-4 py-3 mt-1 hover:bg-gray-500 hover:text-gray-700 rounded sm:mt-0 sm:ml-3 sm:tracking-widest"
-          >About</n-link
-        >
-        <n-link
-          to="#projects"
-          class="block px-4 py-3 mt-1 hover:bg-gray-500 hover:text-gray-700 rounded sm:mt-0 sm:ml-3 sm:tracking-widest"
-          >Projects</n-link
         >
         <n-link
           to="#contact"

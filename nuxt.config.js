@@ -11,7 +11,11 @@ export default {
             { hid: 'description', name: 'description', content: '' }
         ],
         link: [
-            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+            { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+            {
+                rel: 'stylesheet',
+                href: "https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+            },
         ]
     },
 
@@ -42,6 +46,20 @@ export default {
     ],
 
     pwa: {
+        workbox: {
+            offlineStrategy: 'StaleWhileRevalidate',
+            runtimeCaching: [{
+                urlPattern: '/.*',
+                handler: 'networkOnly',
+                strategyOptions: {
+                    cacheName: 'test-cache-v1',
+                    cacheExpiration: {
+                        maxEntries: 5,
+                        maxAgeSeconds: 10
+                    }
+                }
+            }, ]
+        },
         icon: {
             iconSrc: './static/icon.png'
         },

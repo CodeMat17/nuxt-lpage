@@ -12,7 +12,7 @@
           class="bg-transparent p-4 sm:flex sm:justify-center sm:items-center"
         >
           <div
-            class="mx-auto w-40 h-40 md:w-64 md:h-64 bg-gradient-to-r from-orange-400 via-red-500 to-pink-500 rounded-full"
+            class="mx-auto w-40 h-40 md:w-64 md:h-64 bg-gradient-to-r from-orange-400 via-red-500 to-pink-700 rounded-full"
           >
             <img
               class="mx-auto w-40 h-40 md:w-64 md:h-64 p-2"
@@ -24,7 +24,7 @@
             <h1
               class="font-bold mt-4 text-center sm:text-left text-3xl uppercase tracking-wider md:tracking-widest md:text-4xl"
             >
-              Matthew Chukwu
+              Chukwu Matthew
             </h1>
             <h4
               class="text-xl font-bold text-center sm:text-left md:text-2xl md:tracking-widest"
@@ -100,22 +100,141 @@
         </div>
       </div>
     </div>
-    <!-- ############About########## -->
-    <div id="about">
-      <div>
-        <about />
+    <div class="px-4 grid md:grid-cols-2 md:gap-4 xl:grid-cols-3">
+      <div
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">About Me</p>
+        </div>
+        <div class="text-center text-lg p-4 space-y-4">
+          <p>I am enchanted by technologies and what they can do.</p>
+          <p>
+            I so much believe in continous learning to rebuild my capabilities
+            in providing new, relevant and powerful software solutions.
+          </p>
+          <p>
+            I also love giving back to the tech community by mentoring of the
+            younger developers.
+          </p>
+        </div>
       </div>
-    </div>
-    <!-- ############Projects########## -->
-    <div id="projects">
-      <div>
-        <projects />
+      <div
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">My Stack of interest</p>
+        </div>
+        <div class="text-center text-lg p-4 space-y-4">
+          <p>Vuejs</p>
+          <p>Nuxtjs</p>
+          <p>Strapi</p>
+          <p>GraphQL</p>
+        </div>
       </div>
-    </div>
-    <!-- ############Contact########## -->
-    <div id="contact">
-      <div>
-        <contact />
+      <div
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">Coding Skills</p>
+        </div>
+        <div class="text-center text-lg p-4 space-y-4">
+          <p>E-commerce Mobile Web App</p>
+          <p>Payslip Generation Mobile Web App</p>
+          <p>School Management Website</p>
+          <p>Etc</p>
+        </div>
+      </div>
+      <div
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md mt-12 overflow-hidden hover:shadow-xl"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">Administrative Skills</p>
+        </div>
+        <div class="text-center text-lg p-4 space-y-4">
+          <p>Policy, Strategy And Leadership Course, 20</p>
+          <p>Illicit Trade, Security& Enforcement Duties</p>
+          <p>Strategies For Revenue Generation</p>
+          <p>Etc</p>
+        </div>
+      </div>
+      <div
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">Articles</p>
+        </div>
+        <div class="text-center text-lg p-4 space-y-4">
+          <a
+            href="https://codemat.hashnode.dev/a-step-by-step-approach-how-to-connect-your-nuxt-app-to-mongodb-authenticate-with-nuxtjsstrapi-and-query-api-using-graphql-and-apollo"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            target="_blank"
+            >A Step By Step Approach: How To Connect Your Nuxt App To MongoDB,
+            Authenticate With @nuxtjs/strapi And Query API Using GraphQL &
+            Apollo.</a
+          >
+        </div>
+      </div>
+      <div id="contact"
+        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl my-12 overflow-hidden"
+      >
+        <div class="bg-blue-500 text-gray-100 p-4">
+          <p class="font-bold text-2xl tracking-widest uppercase">Contact Me</p>
+        </div>
+        <div class="px-4 py-12 flex items-center justify-around">
+          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+            <a href="mailto:matgold17@gmail.com?subject=Mail from my LP: ">
+              <img
+                src="@/assets/svg/email.svg"
+                alt="email-icon"
+                class="relative w-12 h-12"
+              />
+            </a>
+          </div>
+          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+            <a
+              href="https://twitter.com/matt_chuks"
+              aria-label="Twitter"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="@/assets/svg/twitter.svg"
+                alt="email-icon"
+                class="relative w-12 h-12"
+              />
+            </a>
+          </div>
+          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+            <a
+              href="https://github.com/Mctony17"
+              aria-label="Twitter"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="@/assets/svg/github.svg"
+                alt="email-icon"
+                class="relative w-12 h-12"
+              />
+            </a>
+          </div>
+          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+            <a
+              href="https://www.linkedin.com/in/matthew-chukwu-48851083/"
+              aria-label="Twitter"
+              rel="noreferrer"
+              target="_blank"
+            >
+              <img
+                src="@/assets/svg/linkedin.svg"
+                alt="email-icon"
+                class="relative w-12 h-12"
+              />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
     <!-- ############Footer########## -->
@@ -125,26 +244,6 @@
       </div>
     </div>
     <!-- ############Modal########## -->
-    <div v-show="modalState">
-      <div
-        class="w-full h-screen flex items-center justify-center bg-black opacity-50 px-6"
-      >
-        <div
-          class="w-full flex flex-col items-center justify-center bg-white rounded-lg shadow-lg bg-white"
-        >
-          <p class="mt-4 tracking-wider text-lg font-semibold">
-            There is update
-          </p>
-          <button
-            type="button"
-            @click="refresh"
-            class="block bg-black hover:bg-gray-800 text-white rounded-md py-2 px-8 font-semibold my-4"
-          >
-            Refresh
-          </button>
-        </div>
-      </div>
-    </div>
   </div>
 </template>
 
@@ -180,7 +279,7 @@ export default {
     this.$nextTick(() => {
       this.$nuxt.$loading.start();
       setTimeout(() => this.$nuxt.$loading.finish(), 5000);
-    })      
+    });
   },
 };
 </script>
