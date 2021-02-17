@@ -101,29 +101,37 @@
       </div>
     </div>
     <div class="px-4 grid md:grid-cols-2 md:gap-4 xl:grid-cols-3">
-      <div
-        class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
-      >
-        <div class="bg-blue-500 text-gray-100 p-4">
-          <p class="font-bold text-2xl tracking-widest uppercase">About Me</p>
+      <div class="relative">
+        <div
+          class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
+        >
+          <div class="bg-blue-500 text-gray-100 p-4">
+            <p class="font-bold text-2xl tracking-widest uppercase">About Me</p>
+          </div>
+          <div class="text-center text-lg p-4 space-y-4">
+            <p>I am enchanted by technologies and what they can do.</p>
+            <p>
+              I so much believe in continous learning to rebuild my capabilities
+              in providing new, relevant and powerful software solutions.
+            </p>
+            <p>
+              I also love giving back to the tech community by mentoring of the
+              younger developers.
+            </p>
+          </div>
         </div>
-        <div class="text-center text-lg p-4 space-y-4">
-          <p>I am enchanted by technologies and what they can do.</p>
-          <p>
-            I so much believe in continous learning to rebuild my capabilities
-            in providing new, relevant and powerful software solutions.
-          </p>
-          <p>
-            I also love giving back to the tech community by mentoring of the
-            younger developers.
-          </p>
+        <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/about.svg" alt="about svg" class="h-32 w-32" />
         </div>
       </div>
+      <div class="relative">
       <div
         class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
       >
         <div class="bg-blue-500 text-gray-100 p-4">
-          <p class="font-bold text-2xl tracking-widest uppercase">My Stack of interest</p>
+          <p class="font-bold text-2xl tracking-widest uppercase">
+            My Stack of interest
+          </p>
         </div>
         <div class="text-center text-lg p-4 space-y-4">
           <p>Vuejs</p>
@@ -132,11 +140,18 @@
           <p>GraphQL</p>
         </div>
       </div>
+      <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/stack.svg" alt="about svg" class="h-32 w-32" />
+        </div>
+      </div>
+      <div class="relative">
       <div
         class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
       >
         <div class="bg-blue-500 text-gray-100 p-4">
-          <p class="font-bold text-2xl tracking-widest uppercase">Coding Skills</p>
+          <p class="font-bold text-2xl tracking-widest uppercase">
+            Coding Skills
+          </p>
         </div>
         <div class="text-center text-lg p-4 space-y-4">
           <p>E-commerce Mobile Web App</p>
@@ -145,11 +160,18 @@
           <p>Etc</p>
         </div>
       </div>
+      <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/code-skills.svg" alt="about svg" class="h-32 w-32" />
+        </div>
+      </div>
+      <div class="relative">
       <div
         class="w-full max-w-xl mx-auto border rounded-md shadow-md mt-12 overflow-hidden hover:shadow-xl"
       >
         <div class="bg-blue-500 text-gray-100 p-4">
-          <p class="font-bold text-2xl tracking-widest uppercase">Administrative Skills</p>
+          <p class="font-bold text-2xl tracking-widest uppercase">
+            Administrative Skills
+          </p>
         </div>
         <div class="text-center text-lg p-4 space-y-4">
           <p>Policy, Strategy And Leadership Course, 20</p>
@@ -158,6 +180,11 @@
           <p>Etc</p>
         </div>
       </div>
+       <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/admin-skills.svg" alt="about svg" class="h-32 w-32" />
+        </div>
+      </div>
+      <div class="relative">
       <div
         class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl mt-12 overflow-hidden"
       >
@@ -176,14 +203,22 @@
           >
         </div>
       </div>
-      <div id="contact"
+      <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/articles.svg" alt="about svg" class="h-32 w-32" />
+        </div>
+      </div>
+      <div class="relative">
+      <div
+        id="contact"
         class="w-full max-w-xl mx-auto border rounded-md shadow-md hover:shadow-xl my-12 overflow-hidden"
       >
         <div class="bg-blue-500 text-gray-100 p-4">
           <p class="font-bold text-2xl tracking-widest uppercase">Contact Me</p>
         </div>
         <div class="px-4 py-12 flex items-center justify-around">
-          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+          <div
+            class="rounded-full p-2 border-4 border-white hover:border-gray-300"
+          >
             <a href="mailto:matgold17@gmail.com?subject=Mail from my LP: ">
               <img
                 src="@/assets/svg/email.svg"
@@ -192,7 +227,9 @@
               />
             </a>
           </div>
-          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+          <div
+            class="rounded-full p-2 border-4 border-white hover:border-gray-300"
+          >
             <a
               href="https://twitter.com/matt_chuks"
               aria-label="Twitter"
@@ -206,7 +243,9 @@
               />
             </a>
           </div>
-          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+          <div
+            class="rounded-full p-2 border-4 border-white hover:border-gray-300"
+          >
             <a
               href="https://github.com/Mctony17"
               aria-label="Twitter"
@@ -220,7 +259,9 @@
               />
             </a>
           </div>
-          <div class="rounded-full p-2 border-4 border-white hover:border-gray-300">
+          <div
+            class="rounded-full p-2 border-4 border-white hover:border-gray-300"
+          >
             <a
               href="https://www.linkedin.com/in/matthew-chukwu-48851083/"
               aria-label="Twitter"
@@ -234,6 +275,10 @@
               />
             </a>
           </div>
+        </div>
+        </div>
+          <div class="absolute top-0 right-0 mx-4 rounded-full ">
+          <img src="@/assets/svg/contact.svg" alt="about svg" class="h-32 w-32" />
         </div>
       </div>
     </div>
