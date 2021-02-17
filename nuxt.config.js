@@ -49,16 +49,24 @@ export default {
         workbox: {
             offlineStrategy: 'StaleWhileRevalidate',
             runtimeCaching: [{
-                urlPattern: '/.*',
-                handler: 'networkOnly',
-                strategyOptions: {
-                    cacheName: 'test-cache-v1',
-                    cacheExpiration: {
-                        maxEntries: 5,
-                        maxAgeSeconds: 10
-                    }
+                    urlPattern: 'https://fonts.googleapis.com/.*',
+                    handler: 'cacheFirst',
+                    method: 'GET',
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+                },
+                {
+                    urlPattern: 'https://fonts.gstatic.com/.*',
+                    handler: 'cacheFirst',
+                    method: 'GET',
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+                },
+                {
+                    urlPattern: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
+                    handler: 'cacheFirst',
+                    method: 'GET',
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
                 }
-            }, ]
+            ]
         },
         icon: {
             iconSrc: './static/icon.png'
