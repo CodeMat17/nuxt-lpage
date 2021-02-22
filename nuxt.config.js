@@ -52,19 +52,40 @@ export default {
                     urlPattern: 'https://fonts.googleapis.com/.*',
                     handler: 'cacheFirst',
                     method: 'GET',
-                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+                    strategyPlugins: [{
+                        use: 'Expiration',
+                        config: {
+                            maxEntries: 10,
+                            maxAgeSeconds: 300
+                        }
+                    }]
                 },
                 {
                     urlPattern: 'https://fonts.gstatic.com/.*',
                     handler: 'cacheFirst',
                     method: 'GET',
-                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+                    strategyPlugins: [{
+                        use: 'Expiration',
+                        config: {
+                            maxEntries: 10,
+                            maxAgeSeconds: 300
+                        }
+                    }]
                 },
                 {
                     urlPattern: 'https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js',
                     handler: 'cacheFirst',
                     method: 'GET',
-                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } }
+                    strategyOptions: { cacheableResponse: { statuses: [0, 200] } },
+                    strategyPlugins: [{
+                        use: 'Expiration',
+                        config: {
+                            maxEntries: 10,
+                            maxAgeSeconds: 300
+                        }
+                    }]
                 }
             ]
         },
